@@ -39,8 +39,14 @@ sales_df.describe()
 sales_df.rename(columns={"Amount":"Sales_Amount"})
 
 # %%
+# 9. Amountを100円単位に四捨五入して表示してください
+sales_df['Amount'].round(-2)
 
 # %%
+# 10. 取引データからAmountが5000円を超える取引を抽出してください
+# sales_df.query("Amount > 5000")
+res_over5000 = sales_df.loc[sales_df['Amount']>=5000]
+res_over5000
 
 # %%
 
