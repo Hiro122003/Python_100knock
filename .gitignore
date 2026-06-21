@@ -1,0 +1,26 @@
+# 仮想環境
+venv/
+
+# Pythonの実行キャッシュ
+__pycache__/
+*.pyc
+
+# VS Codeの個人設定
+.vscode/
+
+# Windowsのサムネイルキャッシュ
+Thumbs.db
+
+# Jupyter関連（念のため）
+.ipynb_checkpoints/
+
+# 環境変数・秘密情報（将来APIキーなどを使う場合に備えて）
+.env
+
+#データ
+Member_Data.csv
+Sales_Data.csv
+
+# 問題集
+Udemy_100本ノック_解答付き.ipynb
+Udemy_100本ノック_問題.ipynb
